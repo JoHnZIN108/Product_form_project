@@ -1,0 +1,116 @@
+/* Google Font Import */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap');
+
+body {
+    background-color: #bbcfc7;
+    color: #2d3436; 
+    font-family: 'Poppins', sans-serif; 
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    color: #115080; 
+    font-weight: 600;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.container {
+    max-width: 600px;
+    margin: 30px auto;
+    padding: 30px;
+    background-color: #ffffff; 
+    border-radius: 12px;
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.1); 
+}
+
+label {
+    color: #636e72;
+    font-size: 14px;
+    margin-top: 10px;
+    display: block;
+}
+
+input[type="text"] {
+    width: 100%;
+    padding: 12px;
+    margin: 5px 0;
+    box-sizing: border-box;
+    border: 1px solid #dfe6e9;
+    border-radius: 8px;
+    font-size: 14px;
+    background-color: #f1f2f6; 
+}
+
+input[type="submit"] {
+    width: 100%;
+    padding: 12px;
+    margin-top: 15px;
+    border: none;
+    border-radius: 8px;
+    background-color: #00b894;
+    color: #ffffff;
+    font-size: 16px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+input[type="submit"]:hover {
+    background-color: #019875;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    font-size: 14px;
+}
+
+th, td {
+    padding: 10px;
+    text-align: left;
+    border-bottom: 1px solid #dfe6e9; 
+}
+
+th {
+    background-color: #dfe6e9;
+    font-weight: 600;
+}
+
+td {
+    background-color: #f9fbfd; 
+}
+
+button {
+    display: inline;
+    padding: 8px 12px;
+    border: none;
+    border-radius: 8px;
+    background-color: #00b894; 
+    color: #ffffff;
+    font-size: 14px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin-right: 5px;
+}
+
+button:hover {
+    background-color: #019875; 
+}
+
+.actionButtons{
+    height: 50px;
+}
+
+
+@media (max-width: 768px) {
+    .container {
+        padding: 20px;
+    }
+
+    input[type="submit"], button {
+        font-size: 14px;
+    }
+}
